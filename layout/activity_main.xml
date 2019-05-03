@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <!--시작버튼-->
+    <Button
+        android:id="@+id/startBtn"
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--값 설정 버튼-->
+    <Button
+        android:id="@+id/setBtn"
+        android:text="Set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--디비 버튼-->
+    <Button
+        android:id="@+id/dbBtn"
+        android:text="DB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
