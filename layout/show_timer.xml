@@ -21,4 +21,16 @@
         android:padding="30dp"
         android:text="돈을 나타내줍니다" />
 
+    <Button
+        android:id="@+id/incBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waste" />
+
+    <Button
+        android:id="@+id/decBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waste" />
+
 </LinearLayout>
