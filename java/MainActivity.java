@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.timeisgold;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
         start.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent startInt = new Intent(getApplicationContext(), ModeSelect.class);
+                Intent startInt = new Intent(getApplicationContext(), ModeSelectStart.class);
                 startActivity(startInt);
             }
         });
         set.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent setInt = new Intent(getApplicationContext(), SelectSetting.class);
+                Intent setInt = new Intent(getApplicationContext(), ModeSelectSetting.class);
                 startActivity(setInt);
             }
         });

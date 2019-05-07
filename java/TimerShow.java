@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.timeisgold;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -19,7 +19,7 @@ public class TimerShow extends AppCompatActivity {
         incResult.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent incInt = new Intent(getApplicationContext(), MoneyIncrease.class);
+                Intent incInt = new Intent(getApplicationContext(), TakePicture.class);
                 startActivity(incInt);
             }
         });
