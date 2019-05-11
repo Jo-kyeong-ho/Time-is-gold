@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/timer_container"
+    android:orientation="vertical">
+
+    <!--값어치 있는 일 클릭 버튼-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_timer"
+        android:text="시간을 나타내줍니다"
+        android:padding="30dp"/>
+
+    <TextView
+        android:id="@+id/show_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="돈을 나타내줍니다" />
+
+    <Button
+        android:id="@+id/decBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waste" />
+
+
+</LinearLayout>
