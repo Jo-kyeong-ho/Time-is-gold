@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
 <<<<<<< HEAD
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b89d565d-e76f-4177-a51e-3117e000168f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+=======
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="c7f0662c-0493-43d3-a668-eb011332fd8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -47,6 +58,7 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/timeisgold/DBShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/timeisgold/DBShow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projects.iml" afterDir="false" />
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -58,6 +70,8 @@
     <ignored path="$PROJECT_DIR$/app/build/intermediates/rs/" />
     <ignored path="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/" />
     <ignored path="$PROJECT_DIR$/app/build/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes/" />
+<<<<<<< HEAD
+=======
 =======
   <component name="AndroidLayouts">
     <shared>
@@ -67,6 +81,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df4aaf16-ae72-41d0-8f74-35f0bab43292" name="Default Changelist" comment="" />
 >>>>>>> 93c2b46cc65fe06b4a99755e664156a2a000e9ae
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +89,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -81,6 +99,18 @@
       </state>
     </system>
   </component>
+<<<<<<< HEAD
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+=======
   <component name="FUSProjectUsageTrigger">
     <session id="48683616">
 =======
@@ -141,23 +171,34 @@
 >>>>>>> 93c2b46cc65fe06b4a99755e664156a2a000e9ae
             </state>
           </provider>
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
         </entry>
       </file>
     </leaf>
   </component>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      </list>
+    </option>
+  </component>
+=======
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/timeisgold/DBShow.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
 =======
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
   <component name="ProjectFrameBounds" extendedState="6">
 >>>>>>> 93c2b46cc65fe06b4a99755e664156a2a000e9ae
     <option name="x" value="-10" />
@@ -165,6 +206,10 @@
     <option name="width" value="1385" />
     <option name="height" value="745" />
   </component>
+<<<<<<< HEAD
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+=======
 <<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -235,12 +280,16 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
 =======
   <component name="ProjectView">
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
       <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
@@ -257,12 +306,15 @@
             <path>
               <item name="projects" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+<<<<<<< HEAD
+=======
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="timeisgold" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="projects" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
@@ -270,16 +322,24 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+<<<<<<< HEAD
+=======
 >>>>>>> 93c2b46cc65fe06b4a99755e664156a2a000e9ae
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
 <<<<<<< HEAD
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+=======
+<<<<<<< HEAD
       <pane id="PackagesPane" />
 =======
 >>>>>>> 93c2b46cc65fe06b4a99755e664156a2a000e9ae
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,6 +426,13 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
 <<<<<<< HEAD
+      <changelist id="b89d565d-e76f-4177-a51e-3117e000168f" name="Default Changelist" comment="" />
+      <created>1557554133342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557554133342</updated>
+=======
+<<<<<<< HEAD
       <changelist id="c7f0662c-0493-43d3-a668-eb011332fd8c" name="Default Changelist" comment="" />
       <created>1557554188364</created>
       <option name="number" value="Default" />
@@ -378,26 +445,44 @@
       <option name="presentableId" value="Default" />
       <updated>1557553766178</updated>
 >>>>>>> 93c2b46cc65fe06b4a99755e664156a2a000e9ae
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.32980332" />
+=======
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
 <<<<<<< HEAD
       <window_info id="Capture Tool" />
       <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3295302" />
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
       <window_info id="Structure" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Designer" />
+<<<<<<< HEAD
+      <window_info id="Resources Explorer" />
+=======
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Logcat" />
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Build" weight="0.3295082" />
+      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+=======
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
@@ -418,10 +503,25 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" visible="true" weight="0.32907802" />
 >>>>>>> 93c2b46cc65fe06b4a99755e664156a2a000e9ae
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Gradle" />
       <window_info anchor="right" id="Theme Preview" />
+<<<<<<< HEAD
+      <window_info active="true" anchor="right" id="Preview" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+=======
       <window_info anchor="right" id="Palette&#9;" />
 <<<<<<< HEAD
 =======
@@ -461,6 +561,7 @@
 >>>>>>> 93c2b46cc65fe06b4a99755e664156a2a000e9ae
         </state>
       </provider>
+>>>>>>> 927badc74a7bc582d5c1b2df0df34a06556a2434
     </entry>
   </component>
 </project>
