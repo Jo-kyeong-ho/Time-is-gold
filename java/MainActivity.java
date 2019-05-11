@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
         start.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent startInt = new Intent(getApplicationContext(), ModeSelectStart.class);
+                Intent startInt = new Intent(getApplicationContext(), SelectStart.class);
                 startActivity(startInt);
             }
         });
         set.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent setInt = new Intent(getApplicationContext(), ModeSelectSetting.class);
+                Intent setInt = new Intent(getApplicationContext(), SelectSetting.class);
                 startActivity(setInt);
             }
         });

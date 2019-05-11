@@ -19,7 +19,7 @@ public class StartValue extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent setInt = new Intent(getApplicationContext(), TimerShow.class);
+                Intent setInt = new Intent(getApplicationContext(), GetPicture.class);
                 startActivity(setInt);
             }
         });
