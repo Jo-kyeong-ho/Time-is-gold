@@ -14,6 +14,7 @@ public class DBShow extends AppCompatActivity {
         setContentView(R.layout.show_db);
 
         Button back = findViewById(R.id.backBtn);
+        Button back1 = findViewById(R.id.backBtn);
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
