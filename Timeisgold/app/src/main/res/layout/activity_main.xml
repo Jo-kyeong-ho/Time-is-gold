@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#FFFF99">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="301dp"
+        android:layout_above="@+id/space"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:src="@drawable/android_green" />
+
+    <!--시작버튼-->
+    <TextView
+        android:id="@+id/space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="   "
+        />
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/space"
+        android:text="Start" />
+
+    <!--값 설정 버튼-->
+    <Button
+        android:id="@+id/setBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/space"
+        android:text="Set" />
+
+    <!--디비 버튼-->
+    <Button
+        android:id="@+id/dbBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/space"
+        android:layout_margin="30dp"
+        android:text="DB" />
+
+</RelativeLayout>
