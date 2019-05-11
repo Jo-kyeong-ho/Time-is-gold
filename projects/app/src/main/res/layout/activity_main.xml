@@ -9,7 +9,6 @@
     <!--시작버튼-->
     <TextView
         android:layout_width="wrap_content"
-        android:layout_width="wrap_content"
         android:layout_height="94dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="40dp"
