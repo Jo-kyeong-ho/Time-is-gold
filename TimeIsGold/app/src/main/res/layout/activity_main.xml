@@ -4,18 +4,22 @@
     android:id="@+id/container"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:background="#FFFF99">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="301dp"
-        android:layout_above="@+id/space"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="55dp"
-        android:src="@drawable/android_green" />
+    android:background="@drawable/WallPaper">
 
     <!--시작버튼-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Time is Gold"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp" />
+
     <TextView
         android:id="@+id/space"
         android:layout_width="wrap_content"
@@ -23,33 +27,56 @@
         android:layout_centerInParent="true"
         android:text="   "
         />
-    <Button
-        android:id="@+id/startBtn"
+
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        android:layout_centerInParent="true"
+        android:background="#00ffffff"
+        android:src="@drawable/Circle" />
+    <ImageButton
+        android:id="@+id/startBtn"
+        android:layout_width="166dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="16dp"
         android:layout_toLeftOf="@+id/space"
-        android:text="Start" />
+        android:adjustViewBounds="true"
+        android:background="#00ffffff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/clockLarge" />
 
     <!--값 설정 버튼-->
-    <Button
+    <ImageButton
         android:id="@+id/setBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        android:layout_centerInParent="true"
+        android:layout_width="167dp"
+        android:layout_height="99dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="350dp"
         android:layout_toRightOf="@+id/space"
-        android:text="Set" />
+        android:adjustViewBounds="true"
+        android:background="#00ffffff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Setting" />
 
     <!--디비 버튼-->
-    <Button
+    <ImageButton
         android:id="@+id/dbBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_width="167dp"
+        android:layout_height="99dp"
         android:layout_below="@+id/space"
-        android:layout_margin="30dp"
-        android:text="DB" />
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="true"
+        android:background="#00ffffff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/android_green" />
 
 </RelativeLayout>
