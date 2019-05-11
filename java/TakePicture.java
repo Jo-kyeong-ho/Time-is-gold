@@ -18,7 +18,7 @@ public class TakePicture extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent incInt = new Intent(getApplicationContext(), MoneyIncrease.class);
+                Intent incInt = new Intent(getApplicationContext(), ValueResult.class);
                 startActivity(incInt);
             }
         });

@@ -19,7 +19,7 @@ public class StartWaste extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent setInt = new Intent(getApplicationContext(), TimerShow.class);
+                Intent setInt = new Intent(getApplicationContext(), TimerShowWaste.class);
                 startActivity(setInt);
             }
         });
