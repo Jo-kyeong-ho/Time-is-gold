@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".value_timer_fragment">
+    <View
+        style="@style/circleText"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radSet">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:text="저장된 값 설정"
+            android:id="@+id/radio1"
+            />
+        <Spinner
+            android:id="@+id/list_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp">
+        </Spinner>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="몇 초마다 쉴 지 적으세요.(3600초=1시간)"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:id="@+id/radio1Edit1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/radio2"
+            android:text="새로운 값 설정"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="값진 일의 시급을 적으세요."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:id="@+id/radio2Edit1"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="몇 초마다 쉴 지 적으세요.(3600초=1시간)"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:id="@+id/radio2Edit2"/>
+    </RadioGroup>
+    <Button
+        style="@style/circleShape"
+        android:id="@+id/nextbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/radSet"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"/>
+</RelativeLayout>

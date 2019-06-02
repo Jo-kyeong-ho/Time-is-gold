@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->=
+        <item name="colorPrimary">#d195ff</item>
+        <item name="colorPrimaryDark">#d195ff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="circleText">
+        <item name="android:background">@drawable/circletext</item>
+    </style>
+    <style name="circleShape">
+        <item name="android:background">@drawable/buttonshape</item>
+    </style>
+
+    <style name="TabTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#f5a623</item><!-- 배경 -->
+        <item name="android:textColorPrimary">@android:color/white</item>       <!-- 탭바 선택된 텍스트 -->
+        <item name="android:textColorSecondary">@android:color/black</item>     <!-- 탭바 텍스트 -->
+        <item name="colorAccent">@android:color/white</item>                    <!-- 하단 움직이는 바 색-->
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

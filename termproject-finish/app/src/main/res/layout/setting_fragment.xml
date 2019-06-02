@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting_fragment">
+    <com.google.android.material.tabs.TabLayout
+        android:theme="@style/TabTheme"
+        android:id="@+id/layout_tab"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#bd71ff">
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="VALUE"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/waste"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="WASTE"/>
+    </com.google.android.material.tabs.TabLayout>
+    <FrameLayout
+        android:id="@+id/setting_fragment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/layout_tab"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

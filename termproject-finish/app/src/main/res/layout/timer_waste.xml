@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#d195ff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="w 8530 ￦"
+        android:textColor="#000000"
+        android:background="@null"
+        android:textSize="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:id="@+id/textmoney"
+        />
+
+    <View
+        android:id="@+id/backView1"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#ffffff"
+        android:layout_width="270dp"
+        android:layout_height="270dp"/>
+
+    <View
+        android:id="@+id/backView2"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#fff0ba"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_pig"
+        android:layout_centerInParent="true"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:lottie_fileName="trash.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00"
+        android:textColor="#ffffff"
+        android:background="@null"
+        android:textSize="35dp"
+        android:layout_below="@+id/animation_pig"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:id="@+id/texttime"
+        />
+    <Button
+        style="@style/circleShape"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="중지" />
+
+</RelativeLayout>
