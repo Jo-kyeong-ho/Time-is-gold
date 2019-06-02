@@ -1,4 +1,0 @@
-#Sat May 11 16:49:45 KST 2019
-base.0=E\:\\github\\project\\Time-is-gold\\Time\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
