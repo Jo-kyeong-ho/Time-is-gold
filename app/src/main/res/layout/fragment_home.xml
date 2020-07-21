@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/da"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@null"
+        android:inputType="text"
+        android:text="오늘 날짜를 알려줘요"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/ti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="@null"
+        android:inputType="text"
+        android:text="오늘 하루 사용 시간"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.timeisgold.toolbar.HomeInnerFragment"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:layout_weight="1" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="coinrun.json"
+        app:lottie_loop="true" />
+
+</RelativeLayout>

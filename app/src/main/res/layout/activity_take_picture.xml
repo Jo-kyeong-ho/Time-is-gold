@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="410dp"
+        android:layout_height="630dp" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#00ff0000"
+        android:src="@drawable/underbar" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="#00ff0000"
+        android:src="@drawable/underbar" />
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="15dp"
+        android:background="#00ff0000"
+        android:src="@drawable/camerabutton" />
+</FrameLayout>
